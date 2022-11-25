@@ -1,0 +1,70 @@
+body {
+  background-color: #696c9e;
+}
+.top {
+  background-color: rgb(119, 156, 85);
+  border-radius: 10%;
+}
+h1 {
+  padding-left: 1.5em;
+}
+a {
+  padding-left: 3em;
+}
+#sticky {
+  position: sticky;
+}
+.container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+.content_overlay {
+  display: inline-block;
+}
+.content__overlay img {
+width: 402px;
+height: 580px;
+overflow: hidden;
+border-radius: 5%;
+cursor: pointer;
+position: relative;
+}
+img {
+display: inline;  
+object-fit: cover;
+position: relative;
+}
+img:hover {
+  box-shadow: 40px 40px 40px black;
+} 
+.education {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 2;
+  margin-left: 3em;
+}
+#edu {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 2.8em;
+  margin-right: 4.9em;
+  display: inline;
+}
+#prof {
+  margin: auto;
+  margin-right: 1em;
+}
+#prog {
+  margin: auto;
+}
+.profbg {
+  margin-top: 45em;
+}
+ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+
+
+
